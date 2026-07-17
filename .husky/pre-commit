@@ -1,0 +1,12 @@
+npx lint-staged
+
+staged=$(git diff --cached --name-only --diff-filter=ACM)
+
+# Прогоняем только тесты, задетые изменениями (быстро). Полный прогон — на CI.
+if [ -n "$staged" ]; then
+  npx vitest related --run $staged
+fi
+
+# Обновляем INDEX.md, если менялись README во frontmatter
+npm run index
+git add INDEX.md

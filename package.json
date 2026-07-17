@@ -1,0 +1,29 @@
+{
+  "name": "algo-ambling-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Repo for practicing algorithms: task scaffolding, tests, generated index",
+  "keywords": [
+    "algo"
+  ],
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "index": "node scripts/build-index.js",
+    "new-task": "node scripts/new-task.js",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{js,json,md,yml,yaml}": "prettier --write"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.8",
+    "prettier": "^3.9.5",
+    "vitest": "^4.1.10"
+  }
+}

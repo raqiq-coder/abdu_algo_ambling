@@ -1,0 +1,34 @@
+name: tests
+
+on:
+  push:
+    paths:
+      - "solutions/**"
+      - "scripts/**"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/tests.yml"
+  pull_request:
+    paths:
+      - "solutions/**"
+      - "scripts/**"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+      - run: npm ci
+      - run: npx vitest run
+      - name: INDEX.md актуален
+        run: |
+          npm run index
+          if ! git diff --quiet -- INDEX.md; then
+            echo "::error::INDEX.md устарел — запусти 'npm run index' и закоммить."
+            git diff -- INDEX.md
+            exit 1
+          fi

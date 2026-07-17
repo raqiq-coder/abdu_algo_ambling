@@ -1,0 +1,7 @@
+node_modules
+
+# Генерируется scripts/build-index.js. Prettier выравнивает markdown-таблицы,
+# если форматировать, CI будет вечно ловить расхождение.
+INDEX.md
+
+package-lock.json
