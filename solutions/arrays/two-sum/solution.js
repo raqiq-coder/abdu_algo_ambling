@@ -9,13 +9,17 @@
  */
 
 export function twoSum(nums, target) {
-  const seen = new Map(); // значение -> индекс
+  const seen = new Map();
+
   for (let i = 0; i < nums.length; i++) {
-    const need = target - nums[i];
-    if (seen.has(need)) {
-      return [seen.get(need), i];
+    const diff = target - nums[i];
+
+    if (!seen.has(diff)) {
+      seen.set(nums[i], i);
+    } else {
+      return [seen.get(diff), i];
     }
-    seen.set(nums[i], i);
   }
+
   return [];
 }
