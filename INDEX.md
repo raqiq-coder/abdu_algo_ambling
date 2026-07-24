@@ -1,6 +1,6 @@
 # Индекс задач
 
-Всего: 4 · easy: 4 · medium: 0 · hard: 0
+Всего: 5 · easy: 4 · medium: 1 · hard: 0
 
 | Задача | Тема | Сложность | Теги | Статус |
 |--------|------|-----------|------|--------|
@@ -8,5 +8,6 @@
 | [Two Sum](solutions/arrays/two-sum) | arrays | 🟢 easy | arrays, hash-table | ✅ |
 | [Valid Anagram](solutions/arrays/valid-anagram) | arrays | 🟢 easy | arrays | ✅ |
 | [Promise All](solutions/async/promise-all) | async | 🟢 easy | async | 🕓 |
+| [Group Anagrams](solutions/arrays/group-anagrams) | arrays | 🟡 medium | arrays, hash-table | ✅ |
 
 <!-- Сгенерировано scripts/build-index.js — руками не трогать. -->
