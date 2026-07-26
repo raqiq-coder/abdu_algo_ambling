@@ -1,6 +1,6 @@
 # Индекс задач
 
-Всего: 9 · easy: 6 · medium: 3 · hard: 0
+Всего: 10 · easy: 6 · medium: 4 · hard: 0
 
 | Задача | Тема | Сложность | Теги | Статус |
 |--------|------|-----------|------|--------|
@@ -11,6 +11,7 @@
 | [Valid Anagram](solutions/arrays/valid-anagram) | arrays | 🟢 easy | arrays | ✅ |
 | [Promise All](solutions/async/promise-all) | async | 🟢 easy | async | 🕓 |
 | [Group Anagrams](solutions/arrays/group-anagrams) | arrays | 🟡 medium | arrays, hash-table | ✅ |
+| [Longest Consecutive Sequence](solutions/arrays/longest-consecutive-sequence) | arrays | 🟡 medium | arrays | ✅ |
 | [Products Of Array Except Self](solutions/arrays/products-of-array-except-self) | arrays | 🟡 medium | arrays | ✅ |
 | [Top K Frequent Elements](solutions/arrays/top-k-frequent-elements) | arrays | 🟡 medium | arrays, hash-table, sorting | ✅ |
 
