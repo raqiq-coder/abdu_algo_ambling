@@ -1,6 +1,6 @@
 # Индекс задач
 
-Всего: 11 · easy: 7 · medium: 4 · hard: 0
+Всего: 12 · easy: 8 · medium: 4 · hard: 0
 
 | Задача | Тема | Сложность | Теги | Статус |
 |--------|------|-----------|------|--------|
@@ -8,6 +8,7 @@
 | [Longest Common Prefix](solutions/arrays/longest-common-prefix) | arrays | 🟢 easy | arrays, strings | ✅ |
 | [Majority Element](solutions/arrays/majority-element) | arrays | 🟢 easy | arrays, hash-table | ✅ |
 | [Replace With Greatest Element On Right](solutions/arrays/replace-with-greatest-element-on-right) | arrays | 🟢 easy | arrays | ✅ |
+| [Reverse String](solutions/arrays/reverse-string) | arrays | 🟢 easy | arrays, two-pointers | ✅ |
 | [Two Sum](solutions/arrays/two-sum) | arrays | 🟢 easy | arrays, hash-table | ✅ |
 | [Valid Anagram](solutions/arrays/valid-anagram) | arrays | 🟢 easy | arrays | ✅ |
 | [Promise All](solutions/async/promise-all) | async | 🟢 easy | async | 🕓 |
