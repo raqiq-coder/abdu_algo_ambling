@@ -1,6 +1,6 @@
 # Индекс задач
 
-Всего: 13 · easy: 9 · medium: 4 · hard: 0
+Всего: 14 · easy: 9 · medium: 5 · hard: 0
 
 | Задача | Тема | Сложность | Теги | Статус |
 |--------|------|-----------|------|--------|
@@ -13,6 +13,7 @@
 | [Two Sum](solutions/arrays/two-sum) | arrays | 🟢 easy | arrays, hash-table | ✅ |
 | [Valid Anagram](solutions/arrays/valid-anagram) | arrays | 🟢 easy | arrays | ✅ |
 | [Promise All](solutions/async/promise-all) | async | 🟢 easy | async | 🕓 |
+| [Best Time To Buy And Sell Stock 2](solutions/arrays/best-time-to-buy-and-sell-stock-2) | arrays | 🟡 medium | arrays | ✅ |
 | [Group Anagrams](solutions/arrays/group-anagrams) | arrays | 🟡 medium | arrays, hash-table | ✅ |
 | [Longest Consecutive Sequence](solutions/arrays/longest-consecutive-sequence) | arrays | 🟡 medium | arrays | ✅ |
 | [Products Of Array Except Self](solutions/arrays/products-of-array-except-self) | arrays | 🟡 medium | arrays | ✅ |
