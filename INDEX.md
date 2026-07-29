@@ -1,9 +1,10 @@
 # Индекс задач
 
-Всего: 12 · easy: 8 · medium: 4 · hard: 0
+Всего: 13 · easy: 9 · medium: 4 · hard: 0
 
 | Задача | Тема | Сложность | Теги | Статус |
 |--------|------|-----------|------|--------|
+| [Best Time To Buy And Sell Stock](solutions/arrays/best-time-to-buy-and-sell-stock) | arrays | 🟢 easy | arrays | ✅ |
 | [Contains Duplicate](solutions/arrays/contains-duplicate) | arrays | 🟢 easy | arrays | ✅ |
 | [Longest Common Prefix](solutions/arrays/longest-common-prefix) | arrays | 🟢 easy | arrays, strings | ✅ |
 | [Majority Element](solutions/arrays/majority-element) | arrays | 🟢 easy | arrays, hash-table | ✅ |
