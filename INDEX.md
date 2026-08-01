@@ -1,11 +1,12 @@
 # Индекс задач
 
-Всего: 14 · easy: 9 · medium: 5 · hard: 0
+Всего: 15 · easy: 10 · medium: 5 · hard: 0
 
 | Задача | Тема | Сложность | Теги | Статус |
 |--------|------|-----------|------|--------|
 | [Best Time To Buy And Sell Stock](solutions/arrays/best-time-to-buy-and-sell-stock) | arrays | 🟢 easy | arrays | ✅ |
 | [Contains Duplicate](solutions/arrays/contains-duplicate) | arrays | 🟢 easy | arrays | ✅ |
+| [Is Subsequence](solutions/arrays/is-subsequence) | arrays | 🟢 easy | arrays | ✅ |
 | [Longest Common Prefix](solutions/arrays/longest-common-prefix) | arrays | 🟢 easy | arrays, strings | ✅ |
 | [Majority Element](solutions/arrays/majority-element) | arrays | 🟢 easy | arrays, hash-table | ✅ |
 | [Replace With Greatest Element On Right](solutions/arrays/replace-with-greatest-element-on-right) | arrays | 🟢 easy | arrays | ✅ |
